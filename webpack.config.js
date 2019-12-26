@@ -45,7 +45,8 @@ const config = {
           loader: "url-loader",
           options: {
             name: "[name].[ext]",
-            outputPath: "images"
+            outputPath: "images",
+            limit: 1024 * 10 // 10kb
           }
         }
       },
